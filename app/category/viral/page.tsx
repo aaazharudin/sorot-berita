@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getArticlesByCategory } from "@/lib/data";
-import { ArrowLeft, Flame, TrendingUp, Eye, Clock, Zap, Share2, Heart } from "lucide-react";
+import { ArrowLeft, Flame, TrendingUp, Eye, Zap, Share2, Heart } from "lucide-react";
 
 // Mock trending hashtags
 const trendingHashtags = [
@@ -185,7 +185,7 @@ export default function ViralCategoryPage() {
                 <h3 className="text-xs font-black uppercase tracking-wide text-slate-900 dark:text-slate-100">
                   Trending Hashtags
                 </h3>
-                <p className="text-xs text-slate-500 dark:text-slate-500">What's hot on social media</p>
+                <p className="text-xs text-slate-500 dark:text-slate-500">What&apos;s hot on social media</p>
               </div>
             </div>
           </div>
